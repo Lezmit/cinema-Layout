@@ -1,0 +1,226 @@
+/*                                      cabecera                                  */
+#main_header{
+	background: #F5F5F5;
+	height: 76px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed; 
+}  
+.home{
+	color:#CCCCCC;
+	margin-left: 40px;
+	margin-top: 30px;
+	font-family: sans-serif;
+}
+.buscar{
+	position: relative;
+	text-align: right;
+	margin-top:30px;	
+}
+/*  --------------------------------------------  seccion 1-------------------------------------- */
+
+.seccion1{
+	margin-top: 40px;
+	height: 500px;
+
+}
+.banner{
+	height: 500px;
+	padding-left: 15px;	
+	width: 800px;
+}
+.seccion2{
+	background: #383838;
+		
+} 
+.cajaS2{
+	margin:50px;
+	height: 400px;	
+}
+.titulo{
+	font-size: 50px;
+	margin-left: 10px;
+}
+.id{
+	color: #D3D3D3;
+	font-family: arial;
+}
+.descripcion{
+	color:#727A8B;
+	font-family: arial;
+	font-size: 14px;
+}
+.linea{
+	border-bottom: 1px solid #5B5B5B;
+	margin-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.boton{
+	width: 80px;
+	height: 40px;
+	border: 2px solid green;
+	border-radius: 10px;
+	float: left;
+}
+.boton:hover{
+	background: #D3D3D3;
+}
+.botonage{
+	text-decoration: none;
+	color: green;
+	text-align: center;
+	margin-top: 10px;
+}
+.page{
+	margin-top :10px;
+	margin-left: 9px;
+	position: absolute;
+	float: left;
+	color:#727A8B;	
+}
+
+.cajaBoton{
+	display: inline-block;
+}
+
+/*-------------boton trailer--------------*/
+ .boton2{
+ 	text-decoration: none;
+ 	color:white;
+ }
+
+.trailer{
+	background: #DFB636;
+	width: 200px;
+	height: 50px;
+	border-radius:10px;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 15px;
+	
+}
+.trailer:hover{
+	background-color: green;
+}
+/*-------------boton ticket--------------*/
+.ticket{
+	background: #BB7B29;
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 15px;
+	
+}
+
+.ticket:hover{
+	background: green;
+}
+     /*--------------------------seccion3 -----------------*/
+.seccion3{
+	background: #DFB636;
+
+}
+.container3{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.imagen3{
+	width: 180px;
+	height: 230px;
+	padding: 0px;
+
+}
+/*------------------------seccion5--------*/
+
+.seccion{
+	width: 100%;
+	margin: 0 auto;
+}
+.container5{
+	width: 90%;
+	margin: 0 auto;
+	padding:80px 30px 0px 30px;
+}
+.container5 h3{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color:#bdbdbd ;
+}
+.container5 p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color:#BB7B29 ;
+}
+
+.container5 >*{
+	font-family: Arial;
+}
+
+.linea{
+	border-bottom:1px solid #bdbdbd;
+	margin-bottom:10px; 
+}
+/* ------boton ticket 2 seccion 5-----*/
+.ticket2{
+	background: #BB7B29;
+	width: 170px;
+	height: 70px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 27px;
+}
+.ticket2:hover{
+	background: green;
+}
+/*----fin ticket 2 seccion 5---*/
+.parte2 p{
+	padding: 0px;
+	color: #bdbdbd;
+	font-size: 12px;
+}
+.parte2 h3{
+ color: #BB7B29;
+}
+/*------------seccion6-----------*/
+.container6{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px;
+}
+.imagen4{
+	width: 250px;
+	height: 300px;
+}
+/*-------- footer-----*/
+footer{
+	background: #F3F3F3 ;
+	width: 100%;
+
+}
+.containerfinal{
+	width: 90%;
+	padding: 30px 0px 30px 105px;
+	font-family: Arial;
+}
+
+.containerfinal{
+	color: #616161;
+}
+.create{
+	margin-top:30px;
+	margin-bottom:30px; 
+}
+.containerfinal .piepagina{
+	font-size: 12px;
+}
+.containerfinal h4{
+	margin-bottom: 5px;
+}
