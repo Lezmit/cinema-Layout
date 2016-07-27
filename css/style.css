@@ -1,24 +1,39 @@
 /*                                      cabecera                                  */
 #main_header{
 	background: #F5F5F5;
-	height: 76px;
 	width: 100%;
 	left: 0;
 	top: 0;
 	position: fixed; 
 }  
+.logo{
+	height: 58px;
+	width: 380px;
+}
 .home{
 	color:#CCCCCC;
 	margin-left: 40px;
-	margin-top: 30px;
+	margin-top: 24px;
 	font-family: sans-serif;
 }
 .buscar{
+	border:1px solid #d8d8d8;
 	position: relative;
 	text-align: right;
-	margin-top:30px;	
+	margin-top:7px;	
+	margin-left: 100px;
+	width: 203px;
 }
-/*  --------------------------------------------  seccion 1-------------------------------------- */
+input{
+	background-color: #f3f3f3;
+	border-color: transparent;
+	height: 30px;
+}
+.fa-search{
+	color: #d3d3d3;
+	padding-right: 5px;
+}
+/*  ------------------------------  seccion 1  -------------------------- */
 
 .seccion1{
 	margin-top: 40px;
